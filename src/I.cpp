@@ -11,11 +11,7 @@ int main() {
 
     while (q--) {
         cin >> n;
-        if (m[n] || n > N) {
-            result++;
-        } else {
-            m[n] = 1;
-        }
+        (m[n] || n > N) ? result++ : m[n] = 1;
     }
 
     cout << result << "\n";

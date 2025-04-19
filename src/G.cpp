@@ -1,8 +1,8 @@
 #include <bits/stdc++.h>
 
-char is_even(int n) { return (n % 2 == 0) ? 'p' : 'i'; }
-
 using namespace std;
+
+char is_even(int n) { return (n % 2 == 0) ? 'p' : 'i'; }
 
 int main() {
     char f, s, t;
